@@ -18,7 +18,7 @@ export default {
   components: {
     Header,
     Todos,
-    AddTodo
+    AddTodo,
   }, 
     data() {
       return {

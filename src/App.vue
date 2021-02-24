@@ -3,6 +3,7 @@
     <Header />
     <AddTodo v-on:add-todo="addTodos"/>
     <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo" />
+    
   </div>
 </template>
 
@@ -18,7 +19,7 @@ export default {
   components: {
     Header,
     Todos,
-    AddTodo,
+    AddTodo
   }, 
     data() {
       return {
